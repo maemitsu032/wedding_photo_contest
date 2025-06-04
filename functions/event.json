@@ -1,0 +1,12 @@
+{
+    "specversion": "1.0",
+    "type": "google.cloud.storage.object.v1.finalized",
+    "source": "//storage.googleapis.com/projects/_/buckets/wedding-photos",
+    "id": "1234567890",
+    "time": "2024-05-01T12:00:00.000Z",
+    "datacontenttype": "application/json",
+    "data": {
+      "bucket": "wedding-photo-contest.appspot.com",
+      "name": "wedding-photos/ef722706-0b5b-43a5-9a42-c0693af61e0f.jpg"
+    }
+  }

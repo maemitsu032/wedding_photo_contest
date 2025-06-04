@@ -1,0 +1,27 @@
+{
+  "specversion": "1.0",
+  "type": "google.cloud.storage.object.v1.finalized",
+  "source": "//storage.googleapis.com/projects/_/buckets/wedding-photos",
+  "id": "1234567890",
+  "time": "2023-04-01T12:00:00.000Z",
+  "datacontenttype": "application/json",
+  "data": {
+    "bucket": "wedding-photos",
+    "contentType": "image/jpeg",
+    "crc32c": "AAAAAA==",
+    "etag": "etag123456",
+    "generation": "123456789",
+    "id": "wedding-photos/test_image.jpg/123456789",
+    "kind": "storage#object",
+    "md5Hash": "abcdef123456==",
+    "mediaLink": "https://storage.googleapis.com/download/storage/v1/b/wedding-photos/o/test_image.jpg",
+    "metageneration": "1",
+    "name": "test_image.jpg",
+    "selfLink": "https://storage.googleapis.com/storage/v1/b/wedding-photos/o/test_image.jpg",
+    "size": "123456",
+    "storageClass": "STANDARD",
+    "timeCreated": "2023-04-01T12:00:00.000Z",
+    "timeStorageClassUpdated": "2023-04-01T12:00:00.000Z",
+    "updated": "2023-04-01T12:00:00.000Z"
+  }
+} 

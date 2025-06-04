@@ -1,0 +1,295 @@
+{
+  "test_faces": [
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face1.jpg",
+      "bbox": [
+        271,
+        103,
+        390,
+        248
+      ],
+      "bbox_with_margin": [
+        248,
+        74,
+        413,
+        277
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 2,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face2.jpg",
+      "bbox": [
+        463,
+        741,
+        579,
+        883
+      ],
+      "bbox_with_margin": [
+        440,
+        713,
+        602,
+        911
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 3,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face3.jpg",
+      "bbox": [
+        585,
+        283,
+        686,
+        418
+      ],
+      "bbox_with_margin": [
+        565,
+        256,
+        706,
+        445
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 4,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face4.jpg",
+      "bbox": [
+        816,
+        401,
+        919,
+        532
+      ],
+      "bbox_with_margin": [
+        796,
+        375,
+        939,
+        558
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 5,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face5.jpg",
+      "bbox": [
+        1024,
+        746,
+        1127,
+        889
+      ],
+      "bbox_with_margin": [
+        1004,
+        718,
+        1147,
+        917
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 6,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face6.jpg",
+      "bbox": [
+        516,
+        467,
+        615,
+        606
+      ],
+      "bbox_with_margin": [
+        497,
+        440,
+        634,
+        633
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 7,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face7.jpg",
+      "bbox": [
+        743,
+        228,
+        841,
+        346
+      ],
+      "bbox_with_margin": [
+        724,
+        205,
+        860,
+        369
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 8,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face8.jpg",
+      "bbox": [
+        815,
+        792,
+        918,
+        922
+      ],
+      "bbox_with_margin": [
+        795,
+        766,
+        938,
+        948
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 9,
+      "face_image": "extracted_faces\\test_faces\\test_test_image_3_face9.jpg",
+      "bbox": [
+        1072,
+        342,
+        1175,
+        461
+      ],
+      "bbox_with_margin": [
+        1052,
+        319,
+        1195,
+        484
+      ]
+    }
+  ],
+  "idol_faces": [
+    {
+      "original_image": "idol_images\\orange.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_orange_face1.jpg",
+      "bbox": [
+        560,
+        315,
+        792,
+        605
+      ],
+      "bbox_with_margin": [
+        514,
+        257,
+        838,
+        663
+      ]
+    },
+    {
+      "original_image": "idol_images\\pink.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_pink_face1.jpg",
+      "bbox": [
+        357,
+        216,
+        577,
+        539
+      ],
+      "bbox_with_margin": [
+        313,
+        152,
+        621,
+        603
+      ]
+    },
+    {
+      "original_image": "idol_images\\purpule.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_purpule_face1.jpg",
+      "bbox": [
+        531,
+        248,
+        772,
+        544
+      ],
+      "bbox_with_margin": [
+        483,
+        189,
+        820,
+        603
+      ]
+    },
+    {
+      "original_image": "idol_images\\yellow.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_yellow_face1.jpg",
+      "bbox": [
+        471,
+        256,
+        721,
+        560
+      ],
+      "bbox_with_margin": [
+        421,
+        196,
+        771,
+        620
+      ]
+    },
+    {
+      "original_image": "idol_images\\skyblue.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_skyblue_face1.jpg",
+      "bbox": [
+        410,
+        278,
+        653,
+        585
+      ],
+      "bbox_with_margin": [
+        362,
+        217,
+        701,
+        646
+      ]
+    },
+    {
+      "original_image": "idol_images\\red.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_red_face1.jpg",
+      "bbox": [
+        496,
+        253,
+        735,
+        549
+      ],
+      "bbox_with_margin": [
+        449,
+        194,
+        782,
+        608
+      ]
+    },
+    {
+      "original_image": "idol_images\\blue.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_blue_face1.jpg",
+      "bbox": [
+        456,
+        282,
+        708,
+        588
+      ],
+      "bbox_with_margin": [
+        406,
+        221,
+        758,
+        649
+      ]
+    },
+    {
+      "original_image": "idol_images\\green.jpg",
+      "face_index": 1,
+      "face_image": "extracted_faces\\idol_faces\\idol_green_face1.jpg",
+      "bbox": [
+        568,
+        278,
+        832,
+        581
+      ],
+      "bbox_with_margin": [
+        516,
+        218,
+        884,
+        641
+      ]
+    }
+  ]
+}

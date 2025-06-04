@@ -1,0 +1,405 @@
+{
+  "test_image": "tests/assets/test_image_3.jpg",
+  "test_faces": [
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 1,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face1.jpg",
+      "bbox": [
+        271,
+        103,
+        390,
+        248
+      ],
+      "bbox_with_margin": [
+        248,
+        74,
+        413,
+        277
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 2,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face2.jpg",
+      "bbox": [
+        463,
+        741,
+        579,
+        883
+      ],
+      "bbox_with_margin": [
+        440,
+        713,
+        602,
+        911
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 3,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face3.jpg",
+      "bbox": [
+        585,
+        283,
+        686,
+        418
+      ],
+      "bbox_with_margin": [
+        565,
+        256,
+        706,
+        445
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 4,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face4.jpg",
+      "bbox": [
+        816,
+        401,
+        919,
+        532
+      ],
+      "bbox_with_margin": [
+        796,
+        375,
+        939,
+        558
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 5,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face5.jpg",
+      "bbox": [
+        1024,
+        746,
+        1127,
+        889
+      ],
+      "bbox_with_margin": [
+        1004,
+        718,
+        1147,
+        917
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 6,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face6.jpg",
+      "bbox": [
+        516,
+        467,
+        615,
+        606
+      ],
+      "bbox_with_margin": [
+        497,
+        440,
+        634,
+        633
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 7,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face7.jpg",
+      "bbox": [
+        743,
+        228,
+        841,
+        346
+      ],
+      "bbox_with_margin": [
+        724,
+        205,
+        860,
+        369
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 8,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face8.jpg",
+      "bbox": [
+        815,
+        792,
+        918,
+        922
+      ],
+      "bbox_with_margin": [
+        795,
+        766,
+        938,
+        948
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image_3.jpg",
+      "face_index": 9,
+      "face_image": "face_images\\test_faces\\test_test_image_3_face9.jpg",
+      "bbox": [
+        1072,
+        342,
+        1175,
+        461
+      ],
+      "bbox_with_margin": [
+        1052,
+        319,
+        1195,
+        484
+      ]
+    }
+  ],
+  "comparison_time": "2025-05-15T23:18:06.292956",
+  "results": [
+    {
+      "test_face_idx": 1,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face1.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 2,
+          "idol_face_path": "face_images\\idol_faces\\idol_orange_face1.jpg",
+          "idol_original_image": "idol_images\\orange.jpg",
+          "similarity_score": 0.09946995352746504
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.07363873222667815
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 5,
+          "idol_face_path": "face_images\\idol_faces\\idol_red_face1.jpg",
+          "idol_original_image": "idol_images\\red.jpg",
+          "similarity_score": 0.0719376681977623
+        }
+      ]
+    },
+    {
+      "test_face_idx": 2,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face2.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.18673485208997717
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 2,
+          "idol_face_path": "face_images\\idol_faces\\idol_orange_face1.jpg",
+          "idol_original_image": "idol_images\\orange.jpg",
+          "similarity_score": 0.14472520545571194
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 3,
+          "idol_face_path": "face_images\\idol_faces\\idol_yellow_face1.jpg",
+          "idol_original_image": "idol_images\\yellow.jpg",
+          "similarity_score": 0.09605052068742544
+        }
+      ]
+    },
+    {
+      "test_face_idx": 3,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face3.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.11942610440325044
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 1,
+          "idol_face_path": "face_images\\idol_faces\\idol_skyblue_face1.jpg",
+          "idol_original_image": "idol_images\\skyblue.jpg",
+          "similarity_score": 0.05124235636570626
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 4,
+          "idol_face_path": "face_images\\idol_faces\\idol_green_face1.jpg",
+          "idol_original_image": "idol_images\\green.jpg",
+          "similarity_score": 0.04436916996043522
+        }
+      ]
+    },
+    {
+      "test_face_idx": 4,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face4.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.1450289453448542
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 7,
+          "idol_face_path": "face_images\\idol_faces\\idol_pink_face1.jpg",
+          "idol_original_image": "idol_images\\pink.jpg",
+          "similarity_score": 0.13225580704625658
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 3,
+          "idol_face_path": "face_images\\idol_faces\\idol_yellow_face1.jpg",
+          "idol_original_image": "idol_images\\yellow.jpg",
+          "similarity_score": 0.06555370771930248
+        }
+      ]
+    },
+    {
+      "test_face_idx": 5,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face5.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 3,
+          "idol_face_path": "face_images\\idol_faces\\idol_yellow_face1.jpg",
+          "idol_original_image": "idol_images\\yellow.jpg",
+          "similarity_score": 0.19571360659681425
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.17302050425856577
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 2,
+          "idol_face_path": "face_images\\idol_faces\\idol_orange_face1.jpg",
+          "idol_original_image": "idol_images\\orange.jpg",
+          "similarity_score": 0.15748574552174133
+        }
+      ]
+    },
+    {
+      "test_face_idx": 6,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face6.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 3,
+          "idol_face_path": "face_images\\idol_faces\\idol_yellow_face1.jpg",
+          "idol_original_image": "idol_images\\yellow.jpg",
+          "similarity_score": 0.12382524499778745
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.10635790154605149
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 2,
+          "idol_face_path": "face_images\\idol_faces\\idol_orange_face1.jpg",
+          "idol_original_image": "idol_images\\orange.jpg",
+          "similarity_score": 0.06776858101394126
+        }
+      ]
+    },
+    {
+      "test_face_idx": 7,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face7.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 5,
+          "idol_face_path": "face_images\\idol_faces\\idol_red_face1.jpg",
+          "idol_original_image": "idol_images\\red.jpg",
+          "similarity_score": 0.06048666340772283
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 7,
+          "idol_face_path": "face_images\\idol_faces\\idol_pink_face1.jpg",
+          "idol_original_image": "idol_images\\pink.jpg",
+          "similarity_score": 0.02435140754245405
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 4,
+          "idol_face_path": "face_images\\idol_faces\\idol_green_face1.jpg",
+          "idol_original_image": "idol_images\\green.jpg",
+          "similarity_score": 0.02384685752345274
+        }
+      ]
+    },
+    {
+      "test_face_idx": 8,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face8.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 7,
+          "idol_face_path": "face_images\\idol_faces\\idol_pink_face1.jpg",
+          "idol_original_image": "idol_images\\pink.jpg",
+          "similarity_score": 0.18350141539898768
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 4,
+          "idol_face_path": "face_images\\idol_faces\\idol_green_face1.jpg",
+          "idol_original_image": "idol_images\\green.jpg",
+          "similarity_score": 0.16736504414446884
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.14026685028380215
+        }
+      ]
+    },
+    {
+      "test_face_idx": 9,
+      "test_face_path": "face_images\\test_faces\\test_test_image_3_face9.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 8,
+          "idol_face_path": "face_images\\idol_faces\\idol_blue_face1.jpg",
+          "idol_original_image": "idol_images\\blue.jpg",
+          "similarity_score": 0.15098255229255098
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 3,
+          "idol_face_path": "face_images\\idol_faces\\idol_yellow_face1.jpg",
+          "idol_original_image": "idol_images\\yellow.jpg",
+          "similarity_score": 0.06903062954505976
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 7,
+          "idol_face_path": "face_images\\idol_faces\\idol_pink_face1.jpg",
+          "idol_original_image": "idol_images\\pink.jpg",
+          "similarity_score": 0.06206077521680059
+        }
+      ]
+    }
+  ],
+  "overall_score": 0.14057437089549
+}

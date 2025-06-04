@@ -1,0 +1,97 @@
+{
+  "test_image": "tests/assets/test_image.jpg",
+  "test_faces": [
+    {
+      "original_image": "tests/assets/test_image.jpg",
+      "face_index": 1,
+      "face_image": "face_images\\test_faces\\test_test_image_face1.jpg",
+      "bbox": [
+        738,
+        63,
+        819,
+        168
+      ],
+      "bbox_with_margin": [
+        722,
+        42,
+        835,
+        189
+      ]
+    },
+    {
+      "original_image": "tests/assets/test_image.jpg",
+      "face_index": 2,
+      "face_image": "face_images\\test_faces\\test_test_image_face2.jpg",
+      "bbox": [
+        509,
+        259,
+        593,
+        352
+      ],
+      "bbox_with_margin": [
+        493,
+        241,
+        609,
+        370
+      ]
+    }
+  ],
+  "comparison_time": "2025-05-15T23:13:11.761096",
+  "results": [
+    {
+      "test_face_idx": 1,
+      "test_face_path": "face_images\\test_faces\\test_test_image_face1.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 5,
+          "idol_face_path": "face_images\\idol_faces\\idol_red_face1.jpg",
+          "idol_original_image": "idol_images\\red.jpg",
+          "similarity_score": 0.08686266663685194
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 6,
+          "idol_face_path": "face_images\\idol_faces\\idol_purpule_face1.jpg",
+          "idol_original_image": "idol_images\\purpule.jpg",
+          "similarity_score": 0.0640964593953924
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 3,
+          "idol_face_path": "face_images\\idol_faces\\idol_yellow_face1.jpg",
+          "idol_original_image": "idol_images\\yellow.jpg",
+          "similarity_score": 0.03257002389400584
+        }
+      ]
+    },
+    {
+      "test_face_idx": 2,
+      "test_face_path": "face_images\\test_faces\\test_test_image_face2.jpg",
+      "matches": [
+        {
+          "rank": 1,
+          "idol_face_idx": 3,
+          "idol_face_path": "face_images\\idol_faces\\idol_yellow_face1.jpg",
+          "idol_original_image": "idol_images\\yellow.jpg",
+          "similarity_score": 0.22261305847310642
+        },
+        {
+          "rank": 2,
+          "idol_face_idx": 7,
+          "idol_face_path": "face_images\\idol_faces\\idol_pink_face1.jpg",
+          "idol_original_image": "idol_images\\pink.jpg",
+          "similarity_score": 0.1704037475433673
+        },
+        {
+          "rank": 3,
+          "idol_face_idx": 8,
+          "idol_face_path": "face_images\\idol_faces\\idol_blue_face1.jpg",
+          "idol_original_image": "idol_images\\blue.jpg",
+          "similarity_score": 0.14368927788053792
+        }
+      ]
+    }
+  ],
+  "overall_score": 0.15473786255497918
+}
