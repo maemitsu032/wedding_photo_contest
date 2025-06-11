@@ -1,0 +1,7 @@
+insightface==0.7.3
+onnxruntime==1.18.0
+numpy==1.24.4
+Pillow
+google-cloud-storage
+google-cloud-firestore
+functions-framework

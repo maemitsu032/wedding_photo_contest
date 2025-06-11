@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["https://wedding-photo-contest-dev-032.web.app"],
+    "method": ["GET", "POST", "PUT", "DELETE", "HEAD"],
+    "maxAgeSeconds": 3600
+  }
+] 

@@ -1,29 +1,4 @@
-
-フォトコンテストシステムの全体像を理解するために、まずはそれぞれのコンポーネントの内容を確認します。
-
-Read file: /c:/Users/maemitsu/project/photo_contest/functions/main.py
-
-Read file: /c:/Users/maemitsu/project/photo_contest/functions/main_esc.py
-
-Read file: /c:/Users/maemitsu/project/photo_contest/functions/requirements.txt
-
-Read file: /c:/Users/maemitsu/project/photo_contest/functions/event.json
-
-Read file: /c:/Users/maemitsu/project/photo_contest/web-ui/package.json
-
-Ran tool
-
-Read file: /c:/Users/maemitsu/project/photo_contest/web-ui/src/App.js
-
-Ran tool
-
-Read file: /c:/Users/maemitsu/project/photo_contest/web-ui/src/components/ImageUpload.js
-
-Read file: /c:/Users/maemitsu/project/photo_contest/web-ui/src/components/Ranking.js
-
-Read file: /c:/Users/maemitsu/project/photo_contest/web-ui/src/firebase.js
 # フォトコンテストシステムの全体像ドキュメント
-
 ## 1. システム概要
 
 このシステムは結婚式のフォトコンテストを実施するためのWebプラットフォームで、参加者が撮影した写真をアップロードし、顔認識AIによる類似度スコアを自動計算してランキング表示するものです。
