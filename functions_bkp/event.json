@@ -6,7 +6,7 @@
     "time": "2024-05-01T12:00:00.000Z",
     "datacontenttype": "application/json",
     "data": {
-      "bucket": "wedding-photo-contest-dev-032_tokyo",
+      "bucket": "wedding-photo-contest-dev-032.firebasestorage.app",
       "name": "wedding-photos/ef722706-0b5b-43a5-9a42-c0693af61e0f.jpg"
     }
   }

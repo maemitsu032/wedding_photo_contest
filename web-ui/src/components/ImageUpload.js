@@ -84,7 +84,10 @@ const ImageUpload = () => {
       const storageRef = ref(storage, `wedding-photos/${fileName}`);
 
       // アップロードタスクを作成
-      const uploadTask = uploadBytesResumable(storageRef, file);
+      const uploadTask = uploadBytesResumable(storageRef, file, {
+        contentType: file.type,
+        customMetadata: { userName }
+      });
 
       // アップロードの進捗監視
       uploadTask.on(

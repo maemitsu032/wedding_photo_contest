@@ -8,7 +8,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyDpHVi0IIOURj4h5BKnZi-MKp7PuyRwHUg",
   authDomain: "wedding-photo-contest-dev-032.firebaseapp.com",
   projectId: "wedding-photo-contest-dev-032",
-  storageBucket: "wedding-photo-contest-dev-032_tokyo",
+  storageBucket: "wedding-photo-contest-dev-032.firebasestorage.app",
   messagingSenderId: "105913055858",
   appId: "1:105913055858:web:c964ee5de0da2ab00e20eb",
   measurementId: "G-0PJR98BGJ8"
