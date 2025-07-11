@@ -30,7 +30,7 @@ export const functions = getFunctions(app);
 if (process.env.NODE_ENV === 'development') {
   try {
     // Firestoreエミュレーターに接続
-    connectFirestoreEmulator(db, 'localhost', 8080);
+    connectFirestoreEmulator(db, 'localhost', 8081);
     console.log("Firestoreエミュレーターに接続しました");
     
     // Storageエミュレーターに接続
